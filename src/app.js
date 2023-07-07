@@ -56,7 +56,7 @@ const trimVideo = (fileName, start, stop, res) => {
         .on('error', err => console.log('error: ', err))
         .run()
 }
-
+console.log(port);
 app.get('/download', (req, res) => {
     console.log(req.body);
     let url = req.query.url;
