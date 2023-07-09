@@ -10,7 +10,7 @@ ffmpeg.setFfmpegPath(ffmpegPath)
 
 const { v4: uuidv4 } = require("uuid");
 const app = express();
-const port = process.env.PORT || 44444;
+const port = process.env.PORT || 8000;
 app.listen(port);
 app.use(bodyParser.json())
 app.use(cors());
