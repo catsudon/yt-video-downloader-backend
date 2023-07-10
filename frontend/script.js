@@ -1,4 +1,4 @@
-const backendIPAddress = "localhost:4000/download"
+const backendIPAddress = "18.142.158.153:8000/download"
 
 document.querySelectorAll(".button")[0].addEventListener("click", function () {
     const options = {
